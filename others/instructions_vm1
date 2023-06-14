@@ -1,0 +1,15 @@
+addi $1,$1,1
+addi $2,$2,2
+addi $3,$3,3
+add $4,$1,$2
+sub $5,$2,$1
+addi $6,$3,15
+mul $7,$4,$5
+and $8,$2,$3
+or $9,$1,$4
+SNAPSHOT snapshot_vm1
+xor $10,$6,$8
+or $11,$4,100
+sll $12,$7,10
+srl $13,$8,10
+DUMP_PROCESSOR_STATE
