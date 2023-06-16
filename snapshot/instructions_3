@@ -1,0 +1,10 @@
+sub $5,$6,$4
+mul $7,$1,$2
+and $8,$3,$4
+sub $9,$8,$7
+xor $10,$6,$8
+or $11,$4,100
+sll $12,$7,2
+srl $13,$12,4
+DUMP_PROCESSOR_STATE
+
